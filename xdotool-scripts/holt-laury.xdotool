@@ -1,0 +1,26 @@
+#!/usr/bin/xdotool
+# Finishes a complete holt-laury round
+
+sleep 0.1
+key Tab space
+sleep 0.1
+key Tab space
+sleep 0.1
+key Tab space
+sleep 0.1
+key Tab space
+sleep 0.1
+key Tab space
+sleep 0.1
+key Tab space
+sleep 0.1
+key Tab space
+sleep 0.1
+key Tab space
+sleep 0.1
+key Tab space
+sleep 0.1
+key Tab space
+
+sleep 0.2
+key Tab space

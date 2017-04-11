@@ -1,0 +1,6 @@
+#!/usr/bin/xdotool
+# presses the confirm button on all subjects
+#
+
+keydown f
+

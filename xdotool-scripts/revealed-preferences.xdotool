@@ -1,0 +1,7 @@
+#!/usr/bin/xdotool
+# presses the confirm button on all subjects
+#
+
+mousemove 400 720
+click 1
+

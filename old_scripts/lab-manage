@@ -1,0 +1,51 @@
+#!/bin/bash
+#
+# lab-manage
+#
+# usage: lab-manage command
+#
+# Valid Commands:
+#
+# run machines command
+# up [machines]
+# down [machines]
+# wake [machines]
+# sleep [machines]
+# redwood instance session [machines]
+# redwood1 session [machines]
+# redwood2 instance session [machines]
+# 
+
+# Run commands on a lab machine
+function run {
+    ./run_on_machines.sh $1 $2 &
+}
+
+# Turn screens off
+function off {
+    echo "DISPLAY=:0 xset dpms force off"
+}
+
+# Turn screens on
+function on {
+    echo "DISPLAY=:0 xset dpms force on"
+}
+
+# Wake screens up
+function wake {
+    ./run_on_machines.sh "DISPLAY=:0 xdotool click 1" $1
+    #echo "DISPLAY=:0 gnome-screensaver-command -d"
+}
+
+# Put screens to sleep
+function sleep {
+    ./run_on_machines.sh "DISPLAY=:0 gnome-screensaver-command -a" $1
+}
+
+# do the command
+COMMAND=$1
+shift
+echo $@
+echo $1
+echo $2
+$COMMAND $@ &

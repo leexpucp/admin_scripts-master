@@ -1,0 +1,45 @@
+Lines with > can be copy/pasted into the terminal, not including the >
+
+In terminal below, go to the admin folder:
+	> cd Desktop/Admin
+	
+Stop command in progress:
+	CTRL-C in terminal windcd ow
+	
+Start all machines:
+	> up.sh
+	
+Shutdown all machines:
+	> down.sh
+	
+Wake all machines up from sleeping (screens go blank):
+	> wake.sh
+	
+Sleep all machines:
+	> sleep.sh
+	
+Start zTree:
+	1. Go to one of Dropbox/zTree folders (i.e. 1, 2, or 3)
+	2. Delete extraneous files (eec, gsf, db, all but sh and exe)
+	3. Double-click "ztree_english.sh", select "Run"
+	4. Close the Untitled Treatment zTree opens by default!
+	5. Also, do not open another Treatment until you've started the leafs.
+	
+Start all leaves:
+	> start_zleaf.sh 1-12 1
+		All machines will connect to the ztree started from Dropbox/zTree/ztree1
+	
+Start a subset of leaves using a different ztree:
+	> start_zleaf.sh 1-4 1
+		Computers 1 through 4 will connect to the ztree started from Dropbox/zTree/ztree1
+	> start_zleaf.sh 5-8 2
+		Computers 5 through 8 will connect to the ztree started from Dropbox/zTree/ztree2
+	> start_zleaf.sh 9-12 3
+		Computers 9 through 12 will connect to the ztree started from Dropbox/zTree/ztree3
+
+Restart a single leaf:
+	Run the start_zleaf.sh script with the number of the crashed zleaf and the ztree channel, e.g. for subject 6 using ztree1:
+		> start_zleaf.sh 6 1
+	
+Kill all leaves:
+	> stop_zleaf.sh
