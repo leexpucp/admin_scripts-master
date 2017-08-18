@@ -21,13 +21,13 @@ except ValueError:
 
 for i, machine in enumerate(machines):
 	if type(machine) == int and machine >= 1 and machine <= 17:
-		sys.stdout.write('leeps@192.168.1.1%02.d' % (machine,))
+		sys.stdout.write('install@192.168.46.%02.d' % (machine+29,))
 		if i != len(machines) - 1:
 			sys.stdout.write(',')
 	elif '21' in machine:
 		count = int(re.match('13x([0-9]+)', machine).groups()[0])
 		for i in range(count):
-			sys.stdout.write('leeps@192.168.1.5')
+			sys.stdout.write('install@192.168.1.5')
 			if i != count-1:
 				sys.stdout.write(',')
 		if i != len(machines) - 1:

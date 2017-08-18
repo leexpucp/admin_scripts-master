@@ -1,0 +1,53 @@
+ssh install@192.168.46.30 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.30 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.31 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.31 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.32 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.32 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.33 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.33 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.33 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.33 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.34 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.34 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.35 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.35 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.36 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.36 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.37 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.37 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.38 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.38 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.39 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.39 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.40 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.40 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.41 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.41 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.42 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.42 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.43 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.43 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.44 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.44 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.45 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.45 'cat >> .ssh/authorized_keys'
+
+ssh install@192.168.46.46 mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh install@192.168.46.46 'cat >> .ssh/authorized_keys'

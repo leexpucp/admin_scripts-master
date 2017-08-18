@@ -6,7 +6,7 @@
 
 if [[ -z "$1" ]]
 then
-  machines="1-14"
+  machines="1-16"
 else
   machines=$1
 fi
