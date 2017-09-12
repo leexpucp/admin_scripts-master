@@ -1,7 +1,7 @@
 #!/bin/bash
 if [[ -z "$1" ]]
 then
-	machines="1-16"
+	machines="1-17"
 else
 	machines=$1
 fi

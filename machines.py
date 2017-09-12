@@ -12,7 +12,7 @@ try:
 				sys.stderr.write('range requires exactly 2 numbers: %s\n' % (spec,))
 				sys.exit(1)
 			machines += range(int(pair[0]), int(pair[1])+1)
-		elif '17' in spec:
+		elif '18' in spec:
 			machines.append(spec)
 		else:
 			machines.append(int(spec))
